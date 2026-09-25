@@ -4,6 +4,8 @@
 
 This portfolio project examines booking demand, cancellations, pricing indicators, and guest behavior for a **fictional travel-booking company**. It uses a real public hotel-booking dataset as a proxy for booking operations. The records are not from the fictional company or from any named travel company.
 
+![Travel Booking Analytics dashboard preview](dashboard_preview.png)
+
 ## Dataset
 
 The source is the [Hotel Booking Demand dataset in the Posit Academy Data Gallery](https://posit-academy.quarto.pub/data-gallery/academy-datasets/hotel-cancelations/index.html). It contains bookings due to arrive from July 2015 through August 2017. Customer and property identifiers were removed from the source dataset.
@@ -41,6 +43,7 @@ SQL queries are in [`travel_booking_analysis.sql`](travel_booking_analysis.sql).
 
 - [`travel_booking_data_cleaned.csv`](travel_booking_data_cleaned.csv) — cleaned booking-level data.
 - [`travel_booking_analytics_dashboard.xlsx`](travel_booking_analytics_dashboard.xlsx) — Excel dashboard and supporting analysis summaries.
+- [`dashboard_preview.png`](dashboard_preview.png) — image preview of the dashboard charts.
 - [`travel_booking_analysis.sql`](travel_booking_analysis.sql) — reusable MySQL analysis queries.
 
 ## Limitations
